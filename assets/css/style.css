@@ -1,0 +1,204 @@
+* {
+	font-weight: 100;
+	letter-spacing: 1.5px;
+}
+
+html {
+	height:100%;
+}
+body {
+	width:960px;
+	height:100%;
+}
+
+#wrapper {
+	padding:0;
+	min-height:100% !important;
+	height:100%;
+}
+
+div {
+	padding: 15px;
+}
+
+.header {
+	font-family: 'Georgia', 'Times', 'Times New Roman', serif;
+}
+
+h2 {
+	color: #3d9b94;
+}
+
+h3 {
+	color: #3d9b94;
+}
+
+hr { 
+	border: 1px solid #dddddd; 
+}
+
+p {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	text-align: left;
+	font-size: 12px;
+	float:none;
+	color: #777777;
+	margin: 5px 0px 0px 5px;
+}
+
+#name {
+	color: #ffffff;
+}
+
+a:link { 
+	color: #c0c0c0;
+	text-decoration: none;
+}
+
+a:hover {
+	color:maroon;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#nav {
+	text-align:center;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 12px;
+	color: #c0c0c0;
+	float:right;
+	margin: 20px 190px 0px 0px;
+}
+
+#nameBox {
+	font-size:14px;
+	margin-left:90px;
+	height:50px;
+	padding-top:5px;
+	text-align: center;
+	float:left;
+	background-color: #3d9b94;
+}
+
+#section {
+	border-top: thick solid #c0c0c0;
+	clear:both;
+	height:100%;
+	background-image: url("../seigaiha/seigaiha.png");
+	width: 100%;
+	padding: 0px;
+	overflow: auto;
+}
+
+#About_Me {
+	background: white;
+	padding: 7px 15px 30px 15px;
+	margin: 40px 0px 40px 90px;
+	clear:both;
+	float:left;
+	max-width: 380px;
+	border: 1px solid #dddddd;
+}
+
+#ME {
+	float: left;
+	margin: 5px 10px 10px 5px;
+	height: 100px;
+	width: 125px;
+}
+
+#contact {
+	background: white;
+	padding: 7px 15px 30px 15px;
+	margin: 40px 0px 40px 90px;
+	clear:both;
+	float:left;
+	max-width: 380px;
+	border: 1px solid #dddddd;
+}
+
+td img {
+	border: 1px solid #dddddd;
+	margin: 0px 12px 0px 4px;
+	height: 130px;
+	width: 180px;
+}
+
+.tag {
+	position: relative;
+	bottom: 60px;
+	padding: 8px 0px 0px 0px;
+	margin: 0px 13px 0px 5px;
+	background-color: #3d9b94;
+	width:180px;
+	height: 35px;
+	text-align: center;
+	font-size: 14px;
+	color: white;
+	z-index:1;
+}
+
+form {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+#portfolio {
+	background: white;
+	padding: 7px 15px 15px 15px;
+	margin: 40px 0px 40px 90px;
+	clear:both;
+	float:left;
+	max-width: 400px;
+	border: 1px solid #dddddd;
+}
+
+input[type=text] {
+	padding: 4px 0px 4px 4px;
+	margin: 10px 0px 10px 0px;
+	width: 340px;
+	color: #bbbbbb;
+}
+
+input[type=submit] {
+	color:#ffffff;
+	background:#3d9b94;
+	padding:10px;
+	border: none;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;;
+	font-size: 14px;
+}
+
+#links {
+	text-align: center;
+	margin: 40px 0px 0px 30px;
+	padding: 7px 15px 30px 15px;
+	background: white;
+	float: left;
+	width: 230px;
+	border: 1px solid #dddddd;
+}
+
+.button {
+	margin: 15px 0px 15px 0px;
+	height: 50px;
+	width: 50px;
+}
+
+
+
+#footsie {
+	float: left;
+	width: 100%;
+	background: #535353;
+	border-style: solid #535353;
+    border-top: thick solid #3d9b94;
+    padding: 30px 0px 30px 0px;
+    height:25px;
+}
+
+footer {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 10px;
+	color: #c0c0c0;
+	text-align: center;
+}
